@@ -64,10 +64,6 @@ h1 {
     align-items: center;
 }
 
-.hidden {
-    display: none;
-}
-
 .right.floated {
     float: right;
 }
@@ -123,6 +119,24 @@ h1 {
     width: 150px;
     display: inline-block;
 }
+
+
+.welcome-screen {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	color: white;
+	background: url("https://s-media-cache-ak0.pinimg.com/originals/e4/82/fb/e482fb5910f913a44ccb12188c3a29be.jpg");
+	background-size: cover;
+	}
+
+.hidden {
+    display: none;
+}
+
 
 .list-headers > div:first-child {
     width: 330px;

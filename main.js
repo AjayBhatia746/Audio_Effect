@@ -296,7 +296,7 @@ setInterval makes it run again*/
 	/*jquery ne kisi main class me user-name class 
 	ke text me message ki value daal di*/
             $('.welcome-screen').addClass('hidden');
-            $('.main').removeClass('hidden');
+           $('.main').removeClass('hidden');
         } else {
 	/*agr name ki length 2 se kam hai to
 	input pe ek red color ka border aa jayega mtlb error*/
